@@ -1,0 +1,15 @@
+{
+  "venture": "sage-ai",
+  "manager": "neve",
+  "revenue_target": "$2,000",
+  "revenue_current": 0,
+  "status": "active",
+  "day1_tasks": [
+    "Post 3 Sage AI photos to Instagram",
+    "Write 7-day content calendar",
+    "Grow to 500 followers"
+  ],
+  "blockers": [],
+  "last_updated": "2026-05-08T05:56:46.350754",
+  "github_repo": "https://github.com/clawanthonyzed/sage-ai"
+}
