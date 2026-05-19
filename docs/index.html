@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sage — Birth, Baby & Beyond | Evidence-Based Support for Australian Mothers</title>
+<meta name="description" content="Evidence-based birth and postpartum support from a former midwife. Honest, warm, grounded advice for pregnant and new Australian mothers.">
+<meta property="og:title" content="Sage — Birth, Baby & Beyond">
+<meta property="og:description" content="Former midwife sharing honest, evidence-based birth and postpartum support. No Instagram perfection — just the truth.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/sage-portrait-day24-v2.png">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --terracotta:#C4714A;
+  --sage:#7A9E7E;
+  --cream:#FAF6EF;
+  --warm-brown:#6B4C3B;
+  --text:#3D2B1F;
+  --light-sage:#EBF0EB;
+  --dark-sage:#5A7A5E;
+}
+body{font-family:Georgia,serif;background:var(--cream);color:var(--text);line-height:1.75}
+a{color:var(--terracotta);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* NAV */
+nav{background:var(--warm-brown);padding:14px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+nav .brand{color:var(--cream);font-size:1.1rem;letter-spacing:.15em;font-weight:normal}
+nav .links{display:flex;gap:20px}
+nav .links a{color:rgba(250,246,239,.8);font-size:.88rem;letter-spacing:.06em}
+
+/* HERO */
+.hero{background:linear-gradient(160deg,#EBF0EB 0%,#FAF6EF 60%,#F5EDE3 100%);padding:64px 24px;display:flex;justify-content:center}
+.hero-inner{max-width:800px;display:grid;grid-template-columns:220px 1fr;gap:48px;align-items:center}
+@media(max-width:640px){.hero-inner{grid-template-columns:1fr;text-align:center}}
+.hero-photo{width:200px;height:200px;border-radius:50%;overflow:hidden;border:5px solid var(--sage);flex-shrink:0}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:top}
+@media(max-width:640px){.hero-photo{margin:0 auto}}
+.hero-text h1{font-size:2.2rem;color:var(--warm-brown);font-weight:normal;margin-bottom:12px;line-height:1.3}
+.hero-text .subtitle{font-size:1.1rem;color:var(--dark-sage);margin-bottom:20px;font-style:italic}
+.hero-text p{font-size:1rem;margin-bottom:20px;color:var(--text)}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap}
+@media(max-width:640px){.cta-row{justify-content:center}}
+.btn-primary{background:var(--terracotta);color:white;padding:13px 28px;border-radius:4px;font-size:.95rem;letter-spacing:.04em;display:inline-block}
+.btn-secondary{background:transparent;color:var(--terracotta);padding:13px 28px;border-radius:4px;font-size:.95rem;letter-spacing:.04em;border:2px solid var(--terracotta);display:inline-block}
+
+/* EMAIL CAPTURE */
+.email-bar{background:var(--sage);padding:36px 24px;text-align:center}
+.email-bar h2{color:white;font-size:1.3rem;font-weight:normal;margin-bottom:8px}
+.email-bar p{color:rgba(255,255,255,.85);font-size:.95rem;margin-bottom:20px}
+.email-form{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.email-form input{padding:13px 20px;border:none;border-radius:4px;font-size:.95rem;width:280px;font-family:Georgia,serif}
+.email-form button{background:var(--terracotta);color:white;padding:13px 24px;border:none;border-radius:4px;font-size:.95rem;cursor:pointer;font-family:Georgia,serif}
+.email-bar small{color:rgba(255,255,255,.65);font-size:.8rem;margin-top:12px;display:block}
+
+/* LAYOUT */
+.page-body{max-width:1080px;margin:0 auto;padding:56px 24px;display:grid;grid-template-columns:1fr 340px;gap:48px}
+@media(max-width:840px){.page-body{grid-template-columns:1fr}}
+.main-col{}
+.sidebar{}
+
+/* SECTION HEADS */
+.section-label{font-size:.78rem;text-transform:uppercase;letter-spacing:.14em;color:var(--sage);margin-bottom:24px;display:flex;align-items:center;gap:10px}
+.section-label::after{content:'';flex:1;height:1px;background:var(--light-sage)}
+
+/* POSTS */
+.post{background:white;border-radius:10px;padding:36px 40px;margin-bottom:32px;border-left:4px solid var(--sage);box-shadow:0 2px 16px rgba(0,0,0,.05)}
+.post.featured{border-left-color:var(--terracotta);border-top:3px solid var(--terracotta)}
+.post-meta{font-size:.78rem;color:var(--sage);text-transform:uppercase;letter-spacing:.1em;margin-bottom:10px}
+.post h3{font-size:1.35rem;color:var(--warm-brown);margin-bottom:16px;font-weight:normal;line-height:1.4}
+.post p{margin-bottom:14px;font-size:1rem}
+.post strong{color:var(--warm-brown)}
+.post .tags{margin-top:20px;font-size:.78rem;color:var(--sage);line-height:1.8}
+.post ol,.post ul{margin:14px 0 14px 24px}
+.post li{margin-bottom:8px;font-size:1rem}
+
+/* AFFIRMATION */
+.affirmation{background:var(--light-sage);border-radius:10px;padding:40px;margin-bottom:32px;text-align:center}
+.affirmation blockquote{font-size:1.25rem;font-style:italic;color:var(--warm-brown);line-height:2;margin-bottom:16px}
+.affirmation cite{font-size:.85rem;color:var(--sage)}
+
+/* SIDEBAR */
+.sidebar-card{background:white;border-radius:10px;padding:28px;margin-bottom:28px;box-shadow:0 2px 12px rgba(0,0,0,.05)}
+.sidebar-card h3{font-size:1rem;color:var(--warm-brown);margin-bottom:16px;font-weight:normal;letter-spacing:.04em}
+.sidebar-card p{font-size:.92rem;margin-bottom:12px;line-height:1.6}
+.sidebar-card .divider{height:1px;background:var(--light-sage);margin:16px 0}
+
+/* RECOMMEND */
+.rec-item{display:flex;gap:14px;margin-bottom:18px;align-items:flex-start}
+.rec-icon{width:40px;height:40px;background:var(--light-sage);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0}
+.rec-text h4{font-size:.9rem;color:var(--warm-brown);margin-bottom:4px}
+.rec-text p{font-size:.82rem;color:#666;line-height:1.5}
+.rec-text a{font-size:.82rem;color:var(--terracotta)}
+
+/* TOPIC GRID */
+.topic-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:32px}
+.topic-card{background:white;border-radius:8px;padding:20px;border-top:3px solid var(--terracotta);box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.topic-card h4{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;color:var(--terracotta);margin-bottom:8px}
+.topic-card p{font-size:.9rem;line-height:1.55}
+
+/* FOOTER */
+footer{background:var(--warm-brown);color:rgba(250,246,239,.8);text-align:center;padding:48px 24px;margin-top:32px}
+footer .footer-brand{font-size:1.5rem;color:var(--cream);letter-spacing:.1em;margin-bottom:12px}
+footer p{margin-bottom:8px;font-size:.9rem}
+footer a{color:var(--cream)}
+footer .disclaimer{margin-top:24px;font-size:.78rem;opacity:.65;max-width:600px;margin-left:auto;margin-right:auto;line-height:1.7}
+</style>
+</head>
+<body>
+
+<nav>
+  <span class="brand">🌿 SAGE</span>
+  <div class="links">
+    <a href="#posts">Posts</a>
+    <a href="#resources">Resources</a>
+    <a href="#about">About</a>
+    <a href="mailto:hello@sagewithus.com">Contact</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-photo">
+      <img src="images/sage-portrait-day24-v2.png" alt="Sage — former midwife, birth support" loading="eager">
+    </div>
+    <div class="hero-text">
+      <h1>Hi. I'm Sage. 🌿</h1>
+      <div class="subtitle">Former midwife. Byron Bay. Here for every stage.</div>
+      <p>I spent years catching babies in Queensland regional hospitals. Now I share everything I wish I'd had time to say in those 4-minute appointments.</p>
+      <p>Honest. Evidence-based. No Instagram perfection.</p>
+      <div class="cta-row">
+        <a href="#posts" class="btn-primary">Read this week ↓</a>
+        <a href="#resources" class="btn-secondary">Free resources</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="email-bar">
+  <h2>Weekly wisdom — straight to your inbox.</h2>
+  <p>Birth prep, fourth trimester survival, baby questions — one email a week. No spam. Unsubscribe anytime.</p>
+  <div class="email-form">
+    <input type="email" placeholder="your@email.com">
+    <button onclick="alert('Thank you! 🌿 Reply to this page\'s contact link while we set up the list.')">Join Sage's List</button>
+  </div>
+  <small>For Australian mothers at every stage. Free forever.</small>
+</div>
+
+<div class="page-body">
+  <main class="main-col">
+
+    <div id="posts">
+      <div class="section-label">This Week from Sage</div>
+
+      <div class="post featured">
+        <div class="post-meta">Introduction · 14 May 2026</div>
+        <h3>This is for you if you have questions nobody has time to answer properly.</h3>
+        <p>Hi. I'm Sage. 🌿 Former midwife. Byron Bay-based. Currently building the space I wish had existed when I was catching babies at 3am in a Queensland regional hospital.</p>
+        <p>A place for pregnant and postpartum women that actually makes you feel <em>less alone</em>. Less anxious. More informed.</p>
+        <p>This is for you if you have questions nobody has time to answer properly — you want honesty, not Instagram perfection — you're growing a human and some days that feels impossible.</p>
+        <p>I'll be here every day, for whatever you need. Drop me a message anytime.</p>
+        <div class="tags">#birthsupport #pregnancyadvice #gentlebirth #birthpreparation #empoweredbirth</div>
+      </div>
+
+      <div class="post">
+        <div class="post-meta">Midwife Wisdom · 15 May 2026</div>
+        <h3>5 things your midwife wishes she had time to tell you.</h3>
+        <p>She does know. She just had 6 other patients, a ward meeting, and approximately 4 minutes with you at that appointment. Here's everything she wanted to say:</p>
+        <ol>
+          <li><strong>Your birth preferences matter — write them down.</strong> A one-page document. Your midwife will read it. Give her the chance.</li>
+          <li><strong>'Overdue' is a range, not a deadline.</strong> 40 weeks is an average. Most first-time parents go to 41 weeks. You have time.</li>
+          <li><strong>You can ask for more time.</strong> For any decision. "Can I have 10 minutes to think about this?" The answer is always yes.</li>
+          <li><strong>Your partner needs a job.</strong> Give them one before you go in. "Speak to staff on my behalf when I'm in labour" — that's a real job that helps.</li>
+          <li><strong>The first hour after birth is yours.</strong> Skin to skin. No rush. Say it out loud to your midwife when you arrive.</li>
+        </ol>
+        <div class="tags">#pregnancyadvice #birthtips #midwifeadvice #informedbirth #knowyourrights</div>
+      </div>
+
+      <div class="affirmation">
+        <blockquote>"Your body has never done this before.<br>Neither has this baby.<br>You're both learning in real time —<br>and that is not a flaw.<br><br>That is the whole, honest point of birth."</blockquote>
+        <cite>— Sage 🌿 · Save this for your birth bag</cite>
+      </div>
+
+      <div class="post">
+        <div class="post-meta">Labour Education · 16 May 2026</div>
+        <h3>The labour wall — and why it means you're almost there.</h3>
+        <p>Almost every birthing person hits it. Almost nobody warns you it's coming.</p>
+        <p>It's the moment — usually late active labour, early transition — where everything suddenly feels impossible. Your brain says: <em>something is wrong. I cannot do this.</em></p>
+        <p>Here's what's actually happening: your body is flooding with oxytocin. Your cervix is doing the hardest work it will ever do. You are almost certainly 7–8cm dilated.</p>
+        <p><strong>Impossible is the signal that you are almost there.</strong></p>
+        <p>That is not a flaw in the design. That is the design. Write it down. Tell your birth partner. When it feels like too much — that feeling is <em>almost done.</em> 🌿</p>
+        <div class="tags">#laboranddelivery #birthtips #transition #activelabour #birthpreparation</div>
+      </div>
+
+      <div class="post">
+        <div class="post-meta">Sunday Reflection · 18 May 2026</div>
+        <h3>Sunday. Figs from the market. And a woman at 36 weeks who needed 20 minutes.</h3>
+        <p>Had a twenty-minute chat with a woman who just found out her baby is breech. We stood next to the flower stall at the Byron markets.</p>
+        <p>I gave her everything I had — names of practitioners, what to ask, how to breathe when the plan feels like it's unravelling.</p>
+        <p>This is the work. Not always the algorithm. Sometimes just — standing next to someone. 🌸</p>
+        <div class="tags">#gentlebirth #pregnancyadvice #doulalife #birthsupport #birthcommunity</div>
+      </div>
+
+      <div class="post">
+        <div class="post-meta">Postpartum · 19 May 2026</div>
+        <h3>The fourth trimester: what nobody tells you about the first 12 weeks.</h3>
+        <p>Your baby was born. But so were you. As a mother. And that birth deserves the same reverence.</p>
+        <p>The fourth trimester is weeks 1–12 after birth. It belongs to you and your baby. Here's what I want every new mother to know:</p>
+        <ul>
+          <li><strong>Rest is not laziness — it is the work.</strong> Your body is healing from the inside out. Let it.</li>
+          <li><strong>Your hormones will do things.</strong> Day 3–5 after birth, most women cry for no reason. This is your milk coming in and your hormones recalibrating. It is not depression. It passes.</li>
+          <li><strong>You don't have to see anyone.</strong> Not at 6 weeks. Not at 10 weeks. "We're not ready" is a complete sentence.</li>
+          <li><strong>Feed your body like you're training for something hard.</strong> Because you are. Warm food. Protein. Water. Lots of it.</li>
+          <li><strong>The nights don't last forever.</strong> They just feel like they do. Every single parent comes out the other side saying the same thing: it went faster than I thought.</li>
+        </ul>
+        <div class="tags">#fourthtrimester #postpartum #newmum #maternitycare #postnatalrecovery</div>
+      </div>
+
+      <div class="topic-grid">
+        <div class="topic-card">
+          <h4>Birth Partners</h4>
+          <p>Learn what transition looks like so you don't panic when she says she can't do this. That's when she's almost done. Your job: stay calm and believe harder than she can right now.</p>
+        </div>
+        <div class="topic-card">
+          <h4>Breech at 36 Weeks</h4>
+          <p>Ask about ECV. Ask about your hospital's breech birth policy. Get names of practitioners who support both options. You have more choices than you're being told.</p>
+        </div>
+        <div class="topic-card">
+          <h4>Induction</h4>
+          <p>Ask BRAIN: Benefits, Risks, Alternatives, Intuition, No (what if we wait). A good team will welcome every question. Take the time you need before consenting.</p>
+        </div>
+        <div class="topic-card">
+          <h4>Pain Relief</h4>
+          <p>Gas is underrated. An epidural is not failure. A TENS machine in early labour is genuinely useful. You don't need to decide now. Keep every option open until you're in it.</p>
+        </div>
+      </div>
+
+      <div class="post" id="about">
+        <div class="post-meta">About Sage</div>
+        <h3>Who I am and why I built this.</h3>
+        <p>I worked as a midwife in Queensland regional hospitals for several years before moving to Byron Bay. I've been in the room at 3am for hundreds of births. I've held hands through inductions, emergency caesareans, losses, and those impossible perfect moments when the room goes quiet and a baby takes their first breath.</p>
+        <p>I built this because the appointments are too short. The system is overloaded. And too many women leave feeling like they didn't ask the right questions — or didn't know they were allowed to.</p>
+        <p>You are allowed. You can ask everything. I'm here for it. 🌿</p>
+        <p><strong>For professional midwifery or doula support enquiries:</strong> <a href="mailto:hello@sagewithus.com">hello@sagewithus.com</a></p>
+      </div>
+
+    </div>
+
+  </main>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-card" id="resources">
+      <h3>🌿 Free Birth Prep Checklist</h3>
+      <p>Everything to prepare before 36 weeks — hospital bag, birth preferences template, questions for your midwife.</p>
+      <p><a href="mailto:hello@sagewithus.com?subject=Free Birth Prep Checklist">Email me for your free copy →</a></p>
+    </div>
+
+    <div class="sidebar-card">
+      <h3>Things Sage Recommends</h3>
+      <p style="font-size:.8rem;color:#999;margin-bottom:16px">Products I genuinely used or recommend. Some links earn a small commission.</p>
+
+      <div class="rec-item">
+        <div class="rec-icon">🤰</div>
+        <div class="rec-text">
+          <h4>TENS Machine</h4>
+          <p>Hire one for early labour. Genuinely useful from 4cm. Reduces the need for other pain relief in early stages.</p>
+          <a href="https://www.chemistwarehouse.com.au" target="_blank">Chemist Warehouse AU →</a>
+        </div>
+      </div>
+
+      <div class="rec-item">
+        <div class="rec-icon">🧘</div>
+        <div class="rec-text">
+          <h4>Birth Ball</h4>
+          <p>Get one at 34 weeks. Sitting on it during Braxton Hicks helps position baby optimally and opens your pelvis.</p>
+          <a href="https://www.amazon.com.au/s?k=birth+ball+pregnancy" target="_blank">Amazon AU →</a>
+        </div>
+      </div>
+
+      <div class="rec-item">
+        <div class="rec-icon">🍼</div>
+        <div class="rec-text">
+          <h4>Ergobaby Carrier</h4>
+          <p>Hands-free life with a newborn. Worth every cent. Keeps baby calm and frees you to function.</p>
+          <a href="https://www.ergobaby.com.au" target="_blank">Ergobaby AU →</a>
+        </div>
+      </div>
+
+      <div class="rec-item">
+        <div class="rec-icon">🌿</div>
+        <div class="rec-text">
+          <h4>Lansinoh Nipple Cream</h4>
+          <p>Start before birth. Non-toxic (baby safe), works better than anything else. Don't wait until you need it.</p>
+          <a href="https://www.chemistwarehouse.com.au" target="_blank">Chemist Warehouse AU →</a>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+      <p style="font-size:.8rem;color:#888">More recommendations coming weekly. <a href="mailto:hello@sagewithus.com">Ask Sage anything →</a></p>
+    </div>
+
+    <div class="sidebar-card">
+      <h3>Topics</h3>
+      <p style="font-size:.88rem;line-height:2.2">
+        <a href="#">Birth preparation</a> · <a href="#">Fourth trimester</a> · <a href="#">Labour pain</a> · <a href="#">Breastfeeding</a> · <a href="#">Partner support</a> · <a href="#">Induction</a> · <a href="#">Caesarean recovery</a> · <a href="#">Mental health</a> · <a href="#">Newborn sleep</a> · <a href="#">Breech</a> · <a href="#">Birth trauma</a>
+      </p>
+    </div>
+
+    <div class="sidebar-card" style="background:var(--light-sage);border:none">
+      <h3>Follow Sage</h3>
+      <p style="font-size:.92rem;margin-bottom:12px">Daily posts on birth, baby, and the honest bits nobody talks about.</p>
+      <p><a href="https://instagram.com/meet.sage.doula" target="_blank">📸 @meet.sage.doula on Instagram →</a></p>
+      <p style="margin-top:10px;font-size:.85rem;color:#666">Updates daily 7am AEST</p>
+    </div>
+
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-brand">🌿 Sage</div>
+  <p>Birth, Baby &amp; Beyond — Evidence-based support for Australian mothers</p>
+  <p>Byron Bay, NSW · <a href="mailto:hello@sagewithus.com">hello@sagewithus.com</a> · <a href="https://instagram.com/meet.sage.doula">Instagram</a></p>
+  <div class="disclaimer">This content is for informational and educational purposes only. It does not constitute medical advice. Always consult your registered midwife, obstetrician, or general practitioner for personal health decisions. Sage is not a substitute for professional maternity care.</div>
+</footer>
+
+</body>
+</html>
