@@ -72,7 +72,7 @@ Before using RunPod, HeyGen, Leonardo, Ideogram, KLING, Higgsfield, PDFMonkey, o
 ## RunPod — What Is Ready
 Pod: idea_lobster_gpu (ucauxjdm34gejh) — RTX 4090, $0.69/hr secure cloud
 ComfyUI: installed at /workspace/ComfyUI/ — run /workspace/start.sh after pod boots
-SSH access: from Contabo server (root@46.250.244.248) once pod is running
+SSH access: from Contabo server (root@<empire-server>) once pod is running
 Start pod: ask Einstein, get approval, then Einstein or you start via RunPod API
 
 ---
