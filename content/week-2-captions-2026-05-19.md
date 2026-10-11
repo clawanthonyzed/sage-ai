@@ -55,7 +55,7 @@ One page. Clear language. Give it to your midwife when you arrive.
 
 She will read it. I promise. 📋
 
-Template available — email hello@sagewithus.com with the subject "Birth Plan Template" and I'll send it straight to you. 🌿
+Template coming soon. 🌿
 
 #birthplan #birthpreparation #informedbirth #pregnancyadvice #birthmum #midwifeadvice #maternitycare #empoweredbirth #sage #birthtips #knowyourrights #laboranddelivery #gentlebirth #pregnancyjourney
 
