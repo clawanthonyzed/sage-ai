@@ -48,7 +48,7 @@ Instagram credentials → Neve runs Playwright:
 3. Post Day 1 caption + V1 portrait immediately
 
 ## HOLD (2026-10-11)
-No Instagram posting until Anthony decides: (1) one canonical persona, (2) AI disclosure, (3) removal of midwife/doula credential claims. See memory/persona/README.md. Revenue target: A$2,000/month.
+Persona LOCKED 2026-10-11: Sage Calloway, Virtual Birth Doula & Pregnancy Wellness Companion. Midwife claims purged. Posting still waits for Anthony go-ahead and Instagram access. Revenue target: A$2,000/month.
 
 ---
 _This file is the ground truth for this venture. Always read at session start. Always update at session end._

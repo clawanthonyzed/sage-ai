@@ -108,7 +108,7 @@ Everything else can wait. 🌿
 ## POST 10 — Friday 23 May (6:00 AM AEST)
 **Image:** sage-portrait-day24-v1.png
 
-Breastfeeding week 1 truths no one told me as a first-time midwife:
+Breastfeeding week 1 truths no one tells first-time mums:
 
 1. Day 2–4 is the hardest. Your milk is coming in, your nipples aren't used to this, your baby is learning. It doesn't mean it's not working.
 

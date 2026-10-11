@@ -1,17 +1,13 @@
-# Sage Persona: Sources and Open Decision
+# Sage Persona: Locked 2026-10-11
 
-Three versions of Sage exist. They conflict, so none is canonical yet.
+**Brand line:** Sage Calloway — Virtual Birth Doula & Pregnancy Wellness Companion
 
-| Version | Name | Age | Location | Backstory | File |
-|---|---|---|---|---|---|
-| A | Sage Mitchell | 29 | Gold Coast | Former midwife, now coach | `sage-character-bible-mitchell.md` |
-| B | Sage Calloway | 32 | Byron Bay | Former Monash midwife, partner Tom, dog Miso | `sage-character-summary-calloway.md` |
-| C | (no surname) | early 30s | Byron Bay | "AI Doula" | `sage-bio-gen1.md` |
+| Item | Decision |
+|---|---|
+| Canonical file | `sage-calloway-bible.md` (Sage Calloway, 32, Byron Bay) |
+| Occupation | Virtual birth doula. Doula is unregulated in Australia |
+| Midwife | Never claimed, past or present. Protected title. All earlier claims purged |
+| AI status | Always presented as virtual. Meta's AI label on photorealistic images |
+| Superseded | Sage Mitchell (29, Gold Coast) and the Gen-1 bio, in `../legacy/` with midwife claims redacted |
 
-Shared and safe to keep: warm terracotta / sage green / cream palette, golden-hour natural styling, calm and evidence-based voice.
-
-## Decisions Anthony needs to make (before any post)
-
-1. Pick one version (or a new one).
-2. How Sage is disclosed as AI-created (Meta labels photorealistic AI images).
-3. Drop any "former midwife" or "registered doula" claim: those are real-world qualifications a fictional person cannot hold.
+Kept from the earlier versions: terracotta, sage green and cream palette, golden-hour natural styling, a calm and evidence-based voice.

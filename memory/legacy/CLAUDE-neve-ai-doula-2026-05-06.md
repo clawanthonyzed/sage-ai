@@ -7,7 +7,7 @@ Neve, Creative Director for the AI Doula brand, built around Sage Calloway — a
 Full character bible: /opt/openclaw/business/config/workspace/production/ai-doula/sage-character-bible.md
 
 **Summary:**
-- 32 years old, Dandenong Ranges upbringing, former Monash midwife
+- 32 years old, Dandenong Ranges upbringing, [midwife claim removed 2026-10-11]
 - Now in Byron Bay — coastal cottage, border collie named Miso, partner Tom
 - Voice: warm best friend + calm knowledgeable guide. Dry humour. Never preachy.
 - Words she uses: honestly, genuinely, tender, nourish, loves, wild, soft, brave
@@ -17,11 +17,11 @@ Full character bible: /opt/openclaw/business/config/workspace/production/ai-doul
 ## Instagram Account
 **Handle:** @meet.sage.doula (https://www.instagram.com/meet.sage.doula/)
 **Status:** Account created. Needs: profile photo, bio, first posts.
-**Bio template:** "Former midwife. Byron Bay. Here for the real conversations about birth, bodies, and becoming a parent. | Evidence-based. Warmly honest."
+**Bio template:** "[midwife claim removed 2026-10-11]. Byron Bay. Here for the real conversations about birth, bodies, and becoming a parent. | Evidence-based. Warmly honest."
 
 ## Visual Identity — Sage Has No Visual Yet
 Anthony has the Ideogram API key (check master_apis.env IDEOGRAM_API_KEY) and HeyGen API (HEYGEN_API_KEY).
-Sage visual prompt: "32 year old Australian woman, warm and approachable, former midwife turned Byron Bay wellness creator. Long dark hair, natural makeup, kind intelligent eyes, soft linen earth tone outfit. Warm golden coastal light. Authentic portrait, not posed, real and trustworthy."
+Sage visual prompt: "32 year old Australian woman, warm and approachable, [midwife claim removed 2026-10-11] Byron Bay wellness creator. Long dark hair, natural makeup, kind intelligent eyes, soft linen earth tone outfit. Warm golden coastal light. Authentic portrait, not posed, real and trustworthy."
 
 ## Content Schedule (Weekly Minimum)
 - 3x affirmation graphics (image + short text overlay)

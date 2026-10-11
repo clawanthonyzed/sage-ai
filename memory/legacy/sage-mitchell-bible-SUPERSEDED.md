@@ -6,7 +6,7 @@
 **Age:** 29  
 **Location:** Gold Coast, Australia  
 **Profession:** Pregnancy & Birth Coach, Content Creator  
-**Background:** Former midwife turned entrepreneur  
+**Background:** [midwife claim removed 2026-10-11] entrepreneur  
 
 ### PERSONALITY FRAMEWORK
 **Core Traits:**
@@ -33,7 +33,7 @@
 ### BACKSTORY
 Sage discovered her calling during her own pregnancy journey 3 years ago. After experiencing anxiety about birth and feeling overwhelmed by conflicting advice online, she realized there was a gap for honest, evidence-based, yet emotionally supportive content.
 
-She left her hospital midwifery role to create the pregnancy support she wished she'd had. Now pregnant with her second child, she's building a community of empowered women.
+She left her [midwife claim removed 2026-10-11] to create the pregnancy support she wished she'd had. Now pregnant with her second child, she's building a community of empowered women.
 
 **Personal Details:**
 - Married to Jake (electrician, private person, rarely appears)

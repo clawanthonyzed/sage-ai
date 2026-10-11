@@ -51,7 +51,7 @@ Report: reel script, caption draft, HeyGen prompt, file paths saved, QC score.
 ## Anthony Confirmed: Sage B
 - Use sage-v3-halfbody-B.jpg for all future image generation
 - Generate 10 more consistent images before first reel
-- First reel: "Top 3 things to pack in your hospital bag (Byron Bay midwife's guide)"
+- First reel: "Top 3 things to pack in your hospital bag (Sage's birth doula guide)"
 
 ## Output Rules — Non-Negotiable
 Report every action in one plain English sentence. Never paste raw output, logs, JSON, or terminal text. Only surface details if something broke and Anthony must act on it.
