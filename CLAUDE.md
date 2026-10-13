@@ -96,6 +96,7 @@ Right after each completed task, append ONE line to `/opt/openclaw/orchestration
 | 2026-05-19 | Site live on GitHub Pages (6 posts, affiliate section, email capture); 12 posts drafted; 3 portraits. |
 | 2026-10-11 | Venture standardized (Window 3 Batch 2): CLAUDE.md, workers/, memory/, outputs/ built; ai-doula persona assets ingested; posting placed on hold pending disclosure decision. Revenue A$0. |
 | 2026-10-11 | Anthony locked the persona: Sage Calloway, Virtual Birth Doula & Pregnancy Wellness Companion. All "former midwife" claims purged from the venture, repo and live site. |
+| 2026-10-13 | Venture-in-a-Box kit added: `outputs/BUSINESS-PLAN-LEAN.md`, `outputs/BLUEPRINT-FIRST-DOLLAR.md`, `outputs/90-DAY-AGENT-ROADMAP.md`, `playbooks/AUTONOMOUS-SOP.md`. Run the line from the SOP; guardrails G1 to G4 checked first. Posting hold still on. |
 
 ## 10. Output Rules
 
