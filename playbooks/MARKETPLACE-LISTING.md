@@ -14,12 +14,12 @@
 
 | Platform | Status |
 |---|---|
-| Gumroad | Central empire account (Anthony 2026-10-13) |
-| Instagram @meet.sage.doula | Posting ON HOLD since 2026-10-11: interview Q1 |
-| Sage site (GitHub Pages, docs/) | Public: changes need Anthony OK |
-| Amazon.com.au Associates | Account needs Anthony OK |
+| Instagram @meet.sage.doula | Hold lifts after Anthony inspects the avatar and approves the first 9 posts; Month 1 Anthony approves, Neve posts via API; Month 2 automated |
+| Newsletter (Brevo or MailerLite, free tier) | Approved |
+| Amazon.com.au Associates | Approved under Cudan Studio Pty Ltd |
+| Bloom & Bub + Maternity Aid shops | Where Sage sends buyers; their managers own the listings |
 
-**Pricing rule:** A$9 to A$35 (deck A$9, journal A$15, partner guide A$19, bundle A$35) per `outputs/BUSINESS-PLAN-LEAN.md`.
+**Pricing rule:** Sage sells nothing directly (Founder Rule 9). Success = trusted audience + referred sales.
 
 ## 🧰 2. EQUIP (Toolbox first)
 
@@ -47,12 +47,22 @@ Check `/opt/openclaw/toolbox/INDEX.md` before writing anything new.
 
 ## 📌 Founder Rules (permanent, from Anthony)
 
-| Date | Rule |
-|---|---|
-| 2026-10-11 | Brand line: Sage Calloway, Virtual Birth Doula & Pregnancy Wellness Companion |
-| 2026-10-11 | Sage never claims to be or to have been a midwife |
-| 2026-10-11 | Instagram posting waits for Anthony's go-ahead |
-| 2026-10-11 | Target A$2,000 per month (AUD) |
-| 2026-10-13 | Digital products sell through the central empire Gumroad account |
+Source of truth: [FOUNDER-RULES.md](https://github.com/clawanthonyzed/sage-ai/blob/main/playbooks/FOUNDER-RULES.md). Summary:
 
-New rules from [FOUNDER-INTERVIEW.md](https://github.com/clawanthonyzed/sage-ai/blob/main/playbooks/FOUNDER-INTERVIEW.md) are added here, dated, once Anthony answers.
+| Type | Rule |
+|---|---|
+| 🔒 locked | Posting hold lifts after Anthony inspects the visual avatar AND approves the first 9 posts |
+| 🔒 locked | Month 1: Anthony approves each post, Neve posts via the API. Month 2: move to automated posting |
+| 🔒 locked | Approval follows rule 2 (each post in Month 1, automated from Month 2) |
+| 🔒 locked | Off-limits: medical advice, vaccines, medications, birth trauma |
+| 🔒 locked | Emergency or distress DMs get a fixed safe reply pointing to 000, their midwife or GP, and the PANDA helpline |
+| 🔒 locked | AI disclosure: say it only in private DMs when someone asks. Not in the bio, captions or public comments |
+| 🛡️ floor | Meta's 'AI info' label stays ON for every photorealistic AI image or video. Meta requires it and can penalise accounts that skip it. It is a platform tag, not bio or caption text |
+| 🛡️ floor | Sage never says or implies she is a human, in any channel, if asked |
+| 🛡️ floor | Sage never claims to be a midwife or any registered health practitioner (AHPRA protected titles) |
+| 🔒 locked | Amazon Associates under Cudan Studio Pty Ltd |
+| 🔒 locked | Zero direct digital product sales by Sage. The A$9 Affirmation Deck plan from 2026-10-13 is cancelled |
+| 🔒 locked | Sage's sole mission: build audience trust and drive sales to Bloom & Bub and Maternity Aid |
+| 🛡️ floor | Every post or link that promotes Bloom & Bub, Maternity Aid or an affiliate product is marked as an ad or affiliate link (ACCC influencer disclosure). Product claims use only each product's own approved wording; Maternity Aid TENS claims stay inside its ARTG listing |
+| 🔒 locked | Newsletter on a free tool: Brevo or MailerLite |
+| 🔒 locked | Byron Bay aesthetic: earthy, natural, upbeat, calm, relatable |

@@ -1,5 +1,7 @@
 # 🗺️ 90-Day Agent Roadmap | Sage AI (Venture #4)
 
+> ⚠️ **SUPERSEDED IN PART (2026-10-14).** Anthony's Founder Rules ([FOUNDER-RULES.md](https://github.com/clawanthonyzed/sage-ai/blob/main/playbooks/FOUNDER-RULES.md)) end direct product sales: Sage now drives audience trust and referred sales to Bloom & Bub and Maternity Aid, plus Amazon Associates. Every product, price and Gumroad step below is cancelled. Neve is re-planning around the referral mission; the Founder Rules win wherever this file disagrees.
+
 **Owner:** Neve | **QC:** Echo | **Window:** 2026-10-14 to 2027-01-11 | **Spend:** A$0
 **Read with:** [BUSINESS-PLAN-LEAN.md](https://github.com/clawanthonyzed/sage-ai/blob/main/outputs/BUSINESS-PLAN-LEAN.md) · [BLUEPRINT-FIRST-DOLLAR.md](https://github.com/clawanthonyzed/sage-ai/blob/main/outputs/BLUEPRINT-FIRST-DOLLAR.md) · [AUTONOMOUS-SOP.md](https://github.com/clawanthonyzed/sage-ai/blob/main/playbooks/AUTONOMOUS-SOP.md)
 

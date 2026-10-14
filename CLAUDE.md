@@ -25,7 +25,9 @@ Minimum QC score 9.5/10. Flagship content 10/10. Anything below 9.5 is reworked,
 **Brand line (locked by Anthony 2026-10-11): Sage Calloway — Virtual Birth Doula & Pregnancy Wellness Companion.**
 
 Sage is a virtual, AI-created birth doula and wellness companion for pregnancy, birth and early parenting: warm, earthy, evidence-based. "Doula" is an unregulated role in Australia, so the title is lawful. Canonical persona file: `memory/persona/sage-calloway-bible.md`.
-I build Sage's audience (site + Instagram @meet.sage.doula) and monetise through affiliate partnerships and digital products on Gumroad, LemonSqueezy and Etsy.
+I build Sage's audience (site + Instagram @meet.sage.doula). Sage sells nothing directly: her sole mission is audience trust and referred sales for Bloom & Bub and Maternity Aid, plus Amazon Associates (Cudan Studio Pty Ltd).
+
+**Founder Rules (locked 2026-10-14): `playbooks/FOUNDER-RULES.md` overrides anything older in this file.**
 
 Revenue target: **A$2,000 per month** (figure set 2026-05-08; unit set to A$ on 2026-10-11 under the Currency Law).
 
@@ -33,11 +35,11 @@ Revenue target: **A$2,000 per month** (figure set 2026-05-08; unit set to A$ on 
 
 | Rule | Why |
 |---|---|
-| Sage is always presented as **virtual** (the brand line says so) and photorealistic images carry Meta's AI label | Presenting an AI as a real person risks misleading-conduct claims under Australian Consumer Law |
+| Meta's "AI info" label stays ON for every photorealistic AI image or video; Sage never says or implies she is human. AI is otherwise mentioned only in private DMs when asked (Anthony 2026-10-14) | Presenting an AI as a real person risks misleading-conduct claims under Australian Consumer Law |
 | Sage NEVER claims to be, or to have been, a midwife. The word may only refer to the reader's own care provider ("ask your midwife") | "Midwife" is a protected title in Australia |
 | No medical advice. Cite RANZCOG, WHO or Australian health sources for every factual claim | Pregnancy content reaches vulnerable readers |
 | One persona only: Sage Calloway, Byron Bay | Mitchell and Gen-1 versions archived in `memory/legacy/` as SUPERSEDED |
-| Posting still waits for Anthony's go-ahead (and Instagram access) | Hold set 2026-10-11, not yet lifted |
+| Posting hold lifts after Anthony inspects the avatar and approves the first 9 posts; Month 1 Anthony approves each post, Month 2 automated | Anthony 2026-10-14 |
 
 ## 4. My Team
 
@@ -97,6 +99,7 @@ Right after each completed task, append ONE line to `/opt/openclaw/orchestration
 | 2026-10-11 | Venture standardized (Window 3 Batch 2): CLAUDE.md, workers/, memory/, outputs/ built; ai-doula persona assets ingested; posting placed on hold pending disclosure decision. Revenue A$0. |
 | 2026-10-11 | Anthony locked the persona: Sage Calloway, Virtual Birth Doula & Pregnancy Wellness Companion. All "former midwife" claims purged from the venture, repo and live site. |
 | 2026-10-13 | Venture-in-a-Box kit added: `outputs/BUSINESS-PLAN-LEAN.md`, `outputs/BLUEPRINT-FIRST-DOLLAR.md`, `outputs/90-DAY-AGENT-ROADMAP.md`, `playbooks/AUTONOMOUS-SOP.md`. Run the line from the SOP; guardrails G1 to G4 checked first. Posting hold still on. |
+| 2026-10-14 | Founder Rules locked (Window 4): zero direct sales, referral mission for Bloom & Bub + Maternity Aid, posting-hold conditions, AI disclosure in DMs only plus Meta label floor. See `playbooks/FOUNDER-RULES.md`. |
 
 ## 10. Output Rules
 

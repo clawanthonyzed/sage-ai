@@ -1,5 +1,7 @@
 # 🧘‍♀️ Lean Business Plan | Sage AI (Venture #4)
 
+> ⚠️ **SUPERSEDED IN PART (2026-10-14).** Anthony's Founder Rules ([FOUNDER-RULES.md](https://github.com/clawanthonyzed/sage-ai/blob/main/playbooks/FOUNDER-RULES.md)) end direct product sales: Sage now drives audience trust and referred sales to Bloom & Bub and Maternity Aid, plus Amazon Associates. Every product, price and Gumroad step below is cancelled. Neve is re-planning around the referral mission; the Founder Rules win wherever this file disagrees.
+
 **Owner:** Neve | **QC:** Echo | **Written:** 2026-10-13 | **Kit:** Venture-in-a-Box, Batch 2
 **Brand:** Sage Calloway, Virtual Birth Doula & Pregnancy Wellness Companion
 **Target:** A$2,000 per month
